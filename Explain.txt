@@ -1,0 +1,2 @@
+If part n is not in optimal solution, then the optimal subset is OPT(n-1, maxW) because one ignored part n. 
+If part n is in optimal solution, then the optimal subset = weight of n + OPT(n-1, W - weight of n)
